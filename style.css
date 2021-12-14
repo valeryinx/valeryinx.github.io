@@ -3,6 +3,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 16px;
+}
+
+body
+{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .header
@@ -12,7 +18,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 5px 0 20px;
+  padding: 0 10px 0 20px;
 }
 
 .header__logo
@@ -28,20 +34,40 @@
 .header__nav
 {
   display: flex;
+  gap: 10px;
 }
 
-.header__nav ul
+.header__nav a
 {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-}
-
-.header__nav li {
+  text-decoration: none;
+  color: #101010;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 5px;
   background: #e0e0e0;
-  margin: 0 5px;
   padding: 6px 10px;
+}
 
+.gamecard
+{
+  width: 290px;
+  border: 2px solid burlywood;
+  border-radius: 5px;
+  padding: 100px 10px 10px;
+}
+
+.gamecard__name
+{
+  margin-bottom: 5px;
+}
+
+.gamecard__desc
+{
+  margin-bottom: 20px;
+}
+
+.gamecard__download
+{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }

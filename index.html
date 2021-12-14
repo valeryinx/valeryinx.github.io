@@ -1,23 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ValeryInc Games</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ValeryInc Games</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-        <a href="http://valeryinc.github.io" class="header__logo">valeryinc</a>
-        <nav class="header__nav">
-            <ul>
-                <li>Home</li>
-                <li>Games</li>
-                <li>About</li>
-                <li>Contacts</li>
-            </ul>
-        </nav>
-    </header>
+  <header class="header">
+
+    <a href="http://valeryinc.github.io" class="header__logo">valeryinc</a>
+    <nav class="header__nav">
+
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#games">Games</a>
+      <a href="#contacts">Contacts</a>
+
+    </nav>
+
+  </header>
+  <div class="container">
+      <section class="about" id="about">
+
+        <h2 class="about__heading">Обо мне</h2>
+        <p class="about__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci facilis quas repellendus beatae expedita itaque earum, distinctio delectus possimus, debitis nesciunt ullam iure? Explicabo nesciunt numquam laboriosam veniam commodi saepe voluptas, sequi dolores provident deleniti est facere voluptate eveniet magni.
+        </p>
+
+      </section>
+      <section class="games" id="games">
+
+        <h2 class="games__heading">Мои игры</h2>
+
+        <!-- todo: list of games-->
+
+        <!-- gamecard template-->
+        <div class="gamecard">
+
+          <h3 class="gamecard__name">Wish Impact:<br /> Genshin Wish Sim</h3>
+          <p class="gamecard__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, laborum.</p>
+
+          <div class="gamecard__download">
+
+            <a href="http://play.google.com/store/apps/details?id=com.valeryinc.WishImpact" class="gamecard__download-googleplay" target="_blank">
+              <img src="/images/googleplay-badge.svg" alt="Google Play" width="130px">
+            </a>
+            <a href="#" class="gamecard__download-appstore">
+              <img src="images/appstore-badge.svg" alt="AppStore" width="130px">
+            </a>
+
+          </div>
+
+        </div>
+
+      </section>
+
+  </div>
 </body>
 </html>
