@@ -47,12 +47,21 @@ body
   padding: 6px 10px;
 }
 
+.container
+{
+  padding: 10px;
+}
+
 .gamecard
 {
   width: 290px;
-  border: 2px solid burlywood;
+  height: 270px;
+  background: #e0e0e0;
   border-radius: 5px;
-  padding: 100px 10px 10px;
+  padding: 110px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .gamecard__name
@@ -60,14 +69,13 @@ body
   margin-bottom: 5px;
 }
 
-.gamecard__desc
-{
-  margin-bottom: 20px;
-}
-
 .gamecard__download
 {
   display: flex;
-  justify-content: center;
-  gap: 10px;
+  justify-content: space-between;
+}
+
+.gamecard__download-item
+{
+  height: 37.55px;
 }
