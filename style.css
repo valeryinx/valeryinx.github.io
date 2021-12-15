@@ -52,6 +52,35 @@ body
   padding: 10px;
 }
 
+.about
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.about__text
+{
+  width: 300px;
+  margin-top: 50px;
+}
+
+.about__heading
+{
+  margin-bottom: 5px;
+}
+
+.about__image
+{
+  width: 240px;
+  height: 320px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
 .gamecard-container
 {
   display: flex;
