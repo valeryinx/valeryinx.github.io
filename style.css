@@ -52,6 +52,14 @@ body
   padding: 10px;
 }
 
+.gamecard-container
+{
+  display: flex;
+  overflow: auto;
+  gap: 20px;
+  margin: 20px 0 20px 0;
+}
+
 .gamecard
 {
   width: 290px;
@@ -73,6 +81,7 @@ body
 {
   display: flex;
   justify-content: space-between;
+  gap: 10px
 }
 
 .gamecard__download-item
