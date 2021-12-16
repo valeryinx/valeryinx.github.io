@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,6 +19,7 @@
   </header>
 
   <div class="container">
+    <h1 class="heading">ValeryInc - разработчик с большой буквы</h1>
     <section class="about" id="about">
       <div class="about__text">
         <h2 class="about__heading">Обо мне</h2>
@@ -33,10 +34,9 @@
 
     <section class="games" id="games">
       <h2 class="games__heading">Мои игры</h2>
-      <!-- todo: list of games-->
 
       <!-- gamecard template-->
-      <div class="gamecard-container">
+      <div class="games__container">
         <div class="gamecard">
           <div class="gamecard__text">
             <h3 class="gamecard__name">Wish Impact:<br /> Genshin Wish Sim</h3>
@@ -65,22 +65,47 @@
             </a>
           </div>
         </div>
-        <div class="gamecard">
-          <div class="gamecard__text">
-            <h3 class="gamecard__name">Wish Impact:<br /> Genshin Wish Sim</h3>
-            <p class="gamecard__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, laborum.</p>
+        <div class="games__nomoregames">Игры<br />кончились...</div>
+      </div>
+    </section>
+
+    <section class="contacts">
+      <h2 class="contacts__heading">Контакты</h2>
+      <div class="contacts__container">
+        <div class="contactcard">
+          <div class="contact__text">
+            <h3 class="contactcard__name"><br />Email</h3>
+            <p class="contactcard__desc">Lorem ipsum dolor sit amet consectetur.</p>
           </div>
-          <div class="gamecard__download">
-            <a href="http://play.google.com/store/apps/details?id=com.valeryinc.WishImpact" class="gamecard__download-item gamecard__download-googleplay" target="_blank">
-              <img src="/images/googleplay-badge.svg" alt="Google Play" width="130px">
-            </a>
-            <a href="#" class="gamecard__download-item gamecard__download-appstore">
-              <img src="images/appstore-badge.svg" alt="AppStore" width="130px">
-            </a>
+          <a href="" class="contactcard__link"></a>
+        </div>
+        <div class="contactcard">
+          <div class="contact__text">
+            <h3 class="contactcard__name"><br />VK</h3>
+            <p class="contactcard__desc">Lorem ipsum dolor sit amet consectetur.</p>
           </div>
+          <a href="" class="contactcard__link"></a>
+        </div>
+        <div class="contactcard">
+          <div class="contact__text">
+            <h3 class="contactcard__name">Google Play<br />Developer Page</h3>
+            <p class="contactcard__desc">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <a href="" class="contactcard__link"></a>
+        </div>
+        <div class="contactcard">
+          <div class="contact__text">
+            <h3 class="contactcard__name">AppStore<br />Developer Page</h3>
+            <p class="contactcard__desc">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <a href="" class="contactcard__link"></a>
         </div>
       </div>
     </section>
   </div>
+  <footer class="footer">
+    <div class="footer__copyright">2020-2021 © ValeryInc. All rights reserved.</div>
+    <div class="footer__madeby">Made By<br />Anton Chekulaev &lt;chekulaevanton1@gmail.com&gt;</div>
+  </footer>
 </body>
 </html>
