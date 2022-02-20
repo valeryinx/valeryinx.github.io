@@ -50,8 +50,8 @@ body
 .card {
   background: rgba( 255, 255, 255, 0.5 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 8px );
-  -webkit-backdrop-filter: blur( 8px );
+  backdrop-filter: blur( 7px );
+  -webkit-backdrop-filter: blur( 7px );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 
@@ -289,6 +289,32 @@ body
 
   .card__about-desc, .card__about-name {
     padding: 0;
+  }
+
+  .card__game-a img {
+    height: 40px;
+  }
+}
+
+@media (max-width: 375px) {
+  .card__game-desc {
+    font-size: 17px;
+  }
+
+  .card__about-desc {
+    font-size: 17px;
+  }
+
+  .card__about-contacts {
+    font-size: 17px;
+  }
+
+  .card__about-name {
+    font-size: 45px;
+  }
+
+  .card__game-app {
+    height: 50px;
   }
 
   .card__game-a img {
