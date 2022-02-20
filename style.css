@@ -34,7 +34,7 @@ body
   border-bottom: 1px solid rgba( 200, 200, 200, 0.18 );
 
   color: #ffffff;
-  font-family: "Century Gothic", Arial, sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   font-size: 30px;
   text-align: center;
   line-height: 45px;
@@ -62,6 +62,40 @@ body
   color: #414141;
 
   padding: 15px;
+}
+
+.card__about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card__about-name {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 70px;
+  text-align: right;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.card__about-desc {
+  text-align: right;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 30px;
+}
+
+.card__about-contacts {
+  text-align: left;
+  font-size: 30px;
+  padding: 0 0 10px 15px;
+}
+
+.card__about-contacts p,
+.contacts__vk, .contacts__email,
+.contacts__vk a, .contacts__email a{
+  font-size: inherit;
+  color: inherit;
 }
 
 .card__game {
@@ -135,10 +169,30 @@ body
   .card__game-desc {
     font-size: 25px;
   }
+
+  .card__about-desc {
+    font-size: 25px;
+  }
+
+  .card__about-contacts {
+    font-size: 25px;
+  }
+
+  .card__about-name {
+    font-size: 60px;
+  }
 }
 
 @media (max-width: 1070px) {
   .card__game-desc {
+    font-size: 21px;
+  }
+
+  .card__about-desc {
+    font-size: 21px;
+  }
+
+  .card__about-contacts {
     font-size: 21px;
   }
 }
@@ -146,6 +200,18 @@ body
 @media (max-width: 970px) {
   .card__game-desc {
     font-size: 18px;
+  }
+
+  .card__about-desc {
+    font-size: 18px;
+  }
+
+  .card__about-contacts {
+    font-size: 18px;
+  }
+
+  .card__about-name {
+    font-size: 50px;
   }
 
   .card__game-app {
@@ -214,6 +280,14 @@ body
   }
 
   .card__game-link {
+    padding: 0;
+  }
+
+  .card__about-contacts {
+    padding: 0;
+  }
+
+  .card__about-desc, .card__about-name {
     padding: 0;
   }
 
