@@ -1,1 +1,0 @@
-# valeryinc.github.io
