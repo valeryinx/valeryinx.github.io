@@ -1,11 +1,11 @@
 {
     "promocodes": [
         {
-            "promo": "ZOV",
+            "promo": "NEWYEAR2025",
             "start": "2023-03-01 13:26",
             "end": "2026-05-09 02:00",
-            "gold": 10000.0,
-            "coin": 10000.0
+            "gold": 25000.0,
+            "coin": 25000.0
         },
         {
             "promo": "NEWMEOW",
