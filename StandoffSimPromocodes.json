@@ -1,11 +1,11 @@
 {
     "promocodes": [
         {
-            "promo": "WASTED2025",
+            "promo": "HORSEYEAR",
             "start": "2023-03-01 13:26",
-            "end": "2025-06-21 20:00",
-            "gold": 20000.0,
-            "coin": 20000.0 
+            "end": "2026-06-21 20:00",
+            "gold": 50000.0,
+            "coin": 50000.0 
         },
         {
             "promo": "STND",
