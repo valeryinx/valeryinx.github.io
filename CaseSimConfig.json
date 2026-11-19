@@ -1,6 +1,8 @@
 {
-    "AndroidInterstitialCooldown": 30,
+    "AndroidInterstitialCooldown": 60,
+    "IosInterstitialCooldown": 60,
     "AndroidRewardedCooldown": 15,
+    "IosRewardedCooldown": 15,
     "ShowNeketosekBanner": false,
     "NeketosekBannerURL": "https://4533721.redirect.appmetrica.yandex.com?appmetrica_tracking_id=894399705507710603&referrer=reattribution%3D1"
 }
