@@ -1,6 +1,6 @@
 {
-    "AndroidInterstitialCooldown": 60,
-    "IosInterstitialCooldown": 60,
+    "AndroidInterstitialCooldown": 90,
+    "IosInterstitialCooldown": 90,
     "AndroidRewardedCooldown": 15,
     "IosRewardedCooldown": 15,
     "ShowNeketosekBanner": false,
